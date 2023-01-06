@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T17:52:11.385Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="nV9eAn3t5JRwJobkkB2S" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T17:53:45.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="zwoutn5mXNrYkD1qbK4I" type="github">
   <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
     <mxGraphModel dx="2450" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-45" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="53.25" y="40" width="650" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-46" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;strokeColor=#067F68;" vertex="1" parent="1">
           <mxGeometry y="490" width="780" height="530" as="geometry" />
         </mxCell>
@@ -16,17 +19,32 @@
         <mxCell id="EQqH4Co6svBI0GmpRuIl-48" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="50" y="260" width="650" height="210" as="geometry" />
         </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-1" target="EQqH4Co6svBI0GmpRuIl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-1" value="Data Ingestion" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="190" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-3" target="EQqH4Co6svBI0GmpRuIl-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-3" value="Mercury DB" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-4" target="EQqH4Co6svBI0GmpRuIl-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-4" value="Data Cleaning and Validation for all transactions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="340" y="60" width="140" height="70" as="geometry" />
+          <mxGeometry x="340" y="55" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.406;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-5" target="EQqH4Co6svBI0GmpRuIl-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-5" target="EQqH4Co6svBI0GmpRuIl-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-5" value="Extract vendor-buyer pair transaction history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="530" y="60" width="130" height="70" as="geometry" />
+          <mxGeometry x="530" y="55" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-6" value="Extract feature time_between_invoices&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="150" y="170" width="150" height="60" as="geometry" />
@@ -93,9 +111,6 @@
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-42" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.misc.rating;strokeColor=#999999;fillColor=#ffff00;emptyFillColor=#ffffff;grade=4;ratingScale=5;ratingStyle=star;" vertex="1" parent="1">
           <mxGeometry x="450" y="948" width="140" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="EQqH4Co6svBI0GmpRuIl-45" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;labelBackgroundColor=none;strokeWidth=1;fillColor=none;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="50" y="30" width="650" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-52" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/like-128.png;dashed=1;strokeWidth=1;fillColor=none;direction=west;" vertex="1" parent="1">
           <mxGeometry x="-142" y="890" width="70" height="70" as="geometry" />

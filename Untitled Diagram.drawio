@@ -1,1 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T03:28:48.758Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="vGjLdrj-TLYtXozq-nFZ" type="github"><diagram id="rDeJAG-PpgtT3zstQSiG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-06T04:00:24.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="2U-YBxUxkMsOM4i7Kdnu" type="github">
+  <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
+    <mxGraphModel dx="1200" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-1" value="Data Ingestion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-3" value="Mercury DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-4" value="Data Cleaning and Validation for all transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="270" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-5" value="Extract vendor-buyer transaction history" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-6" value="Extract feature time_between_invoices&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-7" value="Extract temporal features from document_issue_date" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-8" value="Fit KDE to invoice_amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

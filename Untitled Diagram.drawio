@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T18:40:15.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="iRpnDOHtvWNNdgg00Nya" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T20:37:39.665Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="64_m3BQT5noQc2wDPACe" type="github">
   <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
-    <mxGraphModel dx="1556" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2262" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,7 +28,7 @@
         <mxCell id="EQqH4Co6svBI0GmpRuIl-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-3" target="EQqH4Co6svBI0GmpRuIl-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQqH4Co6svBI0GmpRuIl-3" value="Mercury DB" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-3" value="Mercury DB" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-4" target="EQqH4Co6svBI0GmpRuIl-5">
@@ -180,6 +180,21 @@
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-74" value="Reinforcement learning loop for threshold learning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-230" y="480" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-112" value="&lt;font color=&quot;#666666&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Data Extraction and Featurizer&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="730" y="75" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-113" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 20px;&quot;&gt;RTT Density and Threshold Estimation&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="740" y="290" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-115" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 20px;&quot;&gt;RTT Decision Module&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="760" y="850" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-116" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 20px;&quot;&gt;User Feedback&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="980" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-117" value="&lt;font color=&quot;#666666&quot; style=&quot;font-size: 20px;&quot;&gt;Reinforcement Learning&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;dashed=1;labelBackgroundColor=none;sketch=0;strokeWidth=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="400" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

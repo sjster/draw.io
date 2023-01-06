@@ -1,29 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T04:00:24.559Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="2U-YBxUxkMsOM4i7Kdnu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T04:31:35.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="_Jjv4dd0DhzgW9rB2cFW" type="github">
   <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
     <mxGraphModel dx="1200" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="EQqH4Co6svBI0GmpRuIl-1" value="Data Ingestion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="160" width="100" height="60" as="geometry" />
+          <mxGeometry x="190" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-3" value="Mercury DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="160" width="60" height="60" as="geometry" />
+          <mxGeometry x="70" y="60" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-4" value="Data Cleaning and Validation for all transactions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="270" width="140" height="70" as="geometry" />
+          <mxGeometry x="340" y="60" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EQqH4Co6svBI0GmpRuIl-5" value="Extract vendor-buyer transaction history" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-5" value="Extract vendor-buyer pair transaction history" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-6" value="Extract feature time_between_invoices&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="490" width="150" height="60" as="geometry" />
+          <mxGeometry x="150" y="170" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-7" value="Extract temporal features from document_issue_date" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="490" width="160" height="60" as="geometry" />
+          <mxGeometry x="350" y="170" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-8" value="Fit KDE to invoice_amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="490" width="150" height="60" as="geometry" />
+          <mxGeometry x="550" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-9" value="Extract feature invoice_amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-10" value="Compute discrete probabilities for&amp;nbsp; time_between_invoices&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-11" value="Compute discrete probabilities for temporal features&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="260" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-12" value="Select threshold based on entropy of distribution of time_between_invoices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-13" value="Select threshold based on entropy of distribution of temporal features" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-14" value="Select threshold based on entropy of distribution of amount" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-15" value="Probability&lt;br&gt;(New invoice arrival time - past invoice time) &amp;gt; Threshold" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-16" value="Joint Probability&lt;br&gt;(temporal features of new invoice) &amp;gt; Threshold" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="450" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-19" value="Probability density&lt;br&gt;&amp;nbsp;(New invoice amount) &amp;gt; Threshold" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="450" width="195" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-21" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/elasto-online-store/26/00-ELASTOFONT-STORE-READY_invoice-128.png" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-22" value="New invoice" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="24" y="535" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-06T17:53:45.604Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="zwoutn5mXNrYkD1qbK4I" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-06T17:53:56.021Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.1" etag="YZ5EKaAFuU6Ih2VZPDZK" type="github">
   <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
     <mxGraphModel dx="2450" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,6 +41,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-5" target="EQqH4Co6svBI0GmpRuIl-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQqH4Co6svBI0GmpRuIl-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#666666;fontColor=#000000;" edge="1" parent="1" source="EQqH4Co6svBI0GmpRuIl-5" target="EQqH4Co6svBI0GmpRuIl-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQqH4Co6svBI0GmpRuIl-5" value="Extract vendor-buyer pair transaction history" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">

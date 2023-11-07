@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-12T15:14:12.330Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="G_-3rksgZ9q3Ax8qJoPH" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T03:40:24.753Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="o38ulg22Z8qQF9nue82n" version="22.0.8" type="github">
   <diagram id="J3DCZBRzC3aoTUAwQ61n" name="Page-1">
-    <mxGraphModel dx="2124" dy="1813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2156" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -71,6 +71,59 @@
         </mxCell>
         <mxCell id="9Zdf6GrbdQyKHOPBXZbT-25" value="&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;pl-s1&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;caret-color: rgb(201, 209, 217); background-color: initial; box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;pl-s1&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;caret-color: rgb(201, 209, 217); background-color: initial; box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;pl-s1&quot;&gt;destination&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(201, 209, 217); background-color: initial; text-size-adjust: auto;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(165, 214, 255); background-color: initial; box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;pl-c1&quot;&gt;=&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-size-adjust: auto;&quot;&gt;&lt;span style=&quot;caret-color: rgb(201, 209, 217);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;caret-color: rgb(165, 214, 255);&quot;&gt;&quot;predict&quot;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; caret-color: rgb(165, 214, 255); box-sizing: border-box; text-size-adjust: auto;&quot; class=&quot;pl-s&quot;&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;tbl: [eventstream, transunion]&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;box-sizing: border-box; caret-color: rgb(201, 209, 217); text-size-adjust: auto;&quot; class=&quot;pl-s1&quot;&gt;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#330000;" parent="1" vertex="1">
           <mxGeometry x="190" y="-60" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-1" target="q0qtHnd0g4DtTxXgwpJ6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-365" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-1" value="Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-2" target="q0qtHnd0g4DtTxXgwpJ6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-2" value="ChatGPT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-3" value="Answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-4" target="q0qtHnd0g4DtTxXgwpJ6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-4" value="Query" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-5" target="q0qtHnd0g4DtTxXgwpJ6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-5" value="Expert knowledge from vector db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="920" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-6" target="q0qtHnd0g4DtTxXgwpJ6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-6" value="ChatGPT-based agent chain to plan and act" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="980" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-7" target="q0qtHnd0g4DtTxXgwpJ6-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-7" value="ChatGPT generates instructions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-8" target="q0qtHnd0g4DtTxXgwpJ6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-8" value="Instructions validated and executed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-9" value="Answer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="1360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q0qtHnd0g4DtTxXgwpJ6-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q0qtHnd0g4DtTxXgwpJ6-4" target="q0qtHnd0g4DtTxXgwpJ6-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

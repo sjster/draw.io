@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-24T22:35:54.060Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="UoTHZuQPrBnTTVl9LwqT" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T18:12:26.500Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Jjw2-pG_c7u3_UZR6cXp" version="23.1.0" type="github">
   <diagram id="jMy0ykbAIKn8LCZmr7I-" name="Page-1">
-    <mxGraphModel dx="2764" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2156" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -207,13 +207,13 @@
         <mxCell id="q2V4AzfevAqB4T1vLwUA-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Estimate distributions and densities&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="-245" y="1590" width="155" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="79AaybqqJJnjmHzM8cei-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="q2V4AzfevAqB4T1vLwUA-2" target="q2V4AzfevAqB4T1vLwUA-6">
+        <mxCell id="79AaybqqJJnjmHzM8cei-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="q2V4AzfevAqB4T1vLwUA-2" target="q2V4AzfevAqB4T1vLwUA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q2V4AzfevAqB4T1vLwUA-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Estimate thresholds from densities and&lt;b&gt; current slack variable&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry y="1580" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="79AaybqqJJnjmHzM8cei-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="q2V4AzfevAqB4T1vLwUA-4" target="q2V4AzfevAqB4T1vLwUA-6">
+        <mxCell id="79AaybqqJJnjmHzM8cei-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="q2V4AzfevAqB4T1vLwUA-4" target="q2V4AzfevAqB4T1vLwUA-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="q2V4AzfevAqB4T1vLwUA-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Look at a new transaction between a vendor and a buyer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -259,6 +259,27 @@
         </mxCell>
         <mxCell id="q2V4AzfevAqB4T1vLwUA-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Add current transaction to history&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;rotation=-15;" parent="1" vertex="1">
           <mxGeometry x="-180" y="1440" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-1" value="Planner -&amp;gt; Plan of action" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-2" value="[&lt;br&gt;&amp;nbsp; &amp;nbsp;{&#39;Action name&#39;: NAME1,&lt;br&gt;&amp;nbsp; &amp;nbsp; &#39;Action description&#39;: What needs to happen in&amp;nbsp; this action step&lt;br&gt;&amp;nbsp; &amp;nbsp; &#39;Action result&#39;: Result after action has executed&lt;br&gt;&amp;nbsp; &amp;nbsp;},&lt;br&gt;&amp;nbsp; &amp;nbsp;{&#39;Action name&#39;: NAME2,&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &#39;Action description&#39;: What needs to happen in&amp;nbsp; this action step&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp; &#39;Action result&#39;: Result after action has executed&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;br&gt;&lt;br&gt;]&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="130" width="270" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSs81cXjB2fo7rF9-DbD-3" target="ZSs81cXjB2fo7rF9-DbD-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-3" value="Action: Agent 1&lt;br&gt;&lt;br&gt;Step1: call agent1.agenta&lt;br&gt;Step2: call agent1.agentb&lt;br&gt;Step3: call agent1.toola" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-765" y="230" width="165" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZSs81cXjB2fo7rF9-DbD-4" target="ZSs81cXjB2fo7rF9-DbD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-4" value="Action: Agent 2&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-742.5" y="425" width="120" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSs81cXjB2fo7rF9-DbD-6" value="Action: Tool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-742.5" y="557.5" width="120" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
